@@ -18,6 +18,7 @@ class DemoApplicationTests {
     void testJPAAdditionAndFind() {
         FirstEntity entity = new FirstEntity("a", "b");
         repository.save(entity);
+        assert false;
     }
 
 }
